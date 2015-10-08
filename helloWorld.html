@@ -1,139 +1,25 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
 	<head>
 		<meta charset="utf-8">
-		<title>Bootstrap Layouts</title>
+		<title>Picture List</title>
 		<link rel="stylesheet" type="text/css" href="http://students.washington.edu/swifties/helloWorld.css">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	</head>
-
 	<body>
-		<header>
-			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="#">Austin is the BEST</a>
-			    </div>
+		<h1 class="mainTitle">Facts About Me</h1>
+		<h3 class="description">Description</h3>
+		<p class="info">I know how to do stuff on boards and I can dance well enough to where I can easily impress people and make them wish they had my skills of mass impression</p>
+		<h4 class="picTitle">Pictures</h4>
+		<ul>
+			<li> <a data-img="tree-pic" id="skyrimTrees" href="#">Skyrim Trees</a></li>
+			<li> <a data-img="bleak-pic" id="bleakFalls" href="#">Bleak Falls Barrow</a></li>
+			<li> <a data-img="dragon-pic" id="dragon" href="#">Skyrim Dragon</a></li>
+		</ul>
 
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-			        <li><a href="#">Link</a></li>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-			          <ul class="dropdown-menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#">One more separated link</a></li>
-			          </ul>
-			        </li>
-			      </ul>
-			      <form class="navbar-form navbar-left" role="search">
-			        <div class="form-group">
-			          <input type="text" class="form-control" placeholder="Search">
-			        </div>
-			        <button type="submit" class="btn btn-default">Submit</button>
-			      </form>
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#">Link</a></li>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-			          <ul class="dropdown-menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
-			          </ul>
-			        </li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
-		</header>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-xs-12">
-					<div class="panel panel-primary">
-					  <div class="panel-heading">Some Helpful Links</div>
-					  <div class="panel-body">
-					    <a href="https://www.youtube.com" class="btn btn-danger">YouTube</a>
-					    <a href="https://www.facebook.com" class="btn btn-primary">Facebook</a>
-					    <a href="https://www.twitter.com" class="btn btn-info">Twitter</a>
-					    <a href="file:///C:/Users/Yulong/Documents/Sublime/Web%20Dev/Second%20Website/index.html" class="btn btn-success">Best Website Ever</a>
-					  </div>
-					</div>
-				</div>
-				<div class="col-sm-3 col-xs-6">
-					<div class="panel panel-success">
-					  <div class="panel-heading">Contact Me</div>
-					  <div class="panel-body">
-					    <a href="https://www.facebook.com/yulong.tan.52" class="btn btn-primary">Facebook</a>
-					    <a href="https://youtube.com" class="btn btn-danger">YouTube</a>
-					    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&noredirect=1" class="btn btn-warning">Phone Number</a>
-					  </div>
-					</div></div>
-				<div class="col-sm-3 col-xs-6">
-					<div class="panel panel-danger">
-					  <div class="panel-heading">Inapporpriate Photos</div>
-					  <div class="panel-body">
-					    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&noredirect=1" class="btn btn-danger">YouTube</a>
-					    <a href="https://www.youtube.com/watch?v=O1KW3ZkLtuo" class="btn btn-success">Cats</a>
-					  </div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<img class="hide" id="tree-pic" src="https://inanage.files.wordpress.com/2012/01/skyrim_01.jpg"></img>
+		<img class="hide" id="bleak-pic" src="http://guides.gamepressure.com/theelderscrollsvskyrim/gfx/word/-2137631703.jpg"></img>
+		<img class="hide" id="dragon-pic" src="http://cdn2.gamefront.com/wp-content/uploads/2012/12/skydb13.jpg"></img>
 
-		<div class="myPanel">
-			<div class="heading">Reasons Why Austin is the BEST</div>
-			<div class="body">
-				<p>He is a super nerd and is very nice</p>
-				<div class="showOnHover">
-					<a href="" class="btn-xs btn-danger">Delete</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="myPanel">
-			<div class="heading">Bootstrap is cool</div>
-			<div class="body">
-				<p>You can edit many many things in these tables</p>
-				<div class="showOnHover">
-					<a href="" class="btn-xs btn-danger">Delete</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="myPanel">
-			<div class="heading">Creating this nav bar was pretty rad</div>
-			<div class="body">
-				<p>Formatting layouts becomes way easier once you become attuned to Bootstrap. #sk8life</p>
-				<div class="showOnHover">
-					<a href="" class="btn-xs btn-danger">Delete</a>
-				</div>
-			</div>
-		</div>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/e-ORhEE9VVg" frameborder="0" allowfullscreen></iframe>
 		<script src="http://students.washington.edu/swifties/helloWorld.js"></script>
 	</body>
 </html>
