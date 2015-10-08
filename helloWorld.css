@@ -1,33 +1,29 @@
-body {
-	font-family: "helvetica neue";
-	color: #666;
-	padding: 0 20%;
+.myPanel {
+	border: 1px solid #687D6D;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px #ccc;
+	margin: 3%;
 }
 
-body .mainTitle {
-	font-weight: bold;
-	font-style: italic;
-	font-family: courier;
+.myPanel .heading {
+	background: #9DF5C9;
+	border-radius: 5px 5px 0 0;
+	color: #687D6D;
+	padding: 10px 20px;
 }
 
-body .description {
-	padding-left:3%
+.myPanel .body {
+	padding: 10px 20px;
 }
 
-body .info {
-	width: 31%;
-}
-
-body .picTitle {
-	font-family: verdana;
-	font-style: italic;
-	font-weight: bold;
-}
-
-img {
-	width: 200px;
-}
-
-.hide {
+.myPanel .showOnHover {
 	display: none;
+}
+
+.myPanel:hover {
+	box-shadow: 0px 0px 8px #666;
+}
+
+.myPanel:hover .showOnHover {
+	display: inline-block;
 }
