@@ -33,3 +33,15 @@ function add() {
 	var sum = one + two;
 	addSum.innerHTML = "Your sum is " + sum;
 }
+
+var reverseButton = document.getElementById("reverse");
+
+reverseButton.addEventListener("click", alert(reverse(prompt("Type a phrase and I will reverse it"))));
+
+function reverse(phrase) {
+	var output = "";
+	for (var i = phrase.length - 1; i >= 0; i--) {
+		output += phrase.charAt(i);
+	}
+	return "The reversed phrase of " + "\"" + phrase + "\" is \n" + output;
+}
