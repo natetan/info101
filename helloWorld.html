@@ -2,17 +2,24 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hello World</title>
-		<link rel="stylesheet" type="text/css" href="http://students.washington.edu/swifties/helloWorld.css">
+		<link rel="stylesheet" type="text/css" href="helloWorld.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	</head>
 	<body>
 		<h1 class="mainTitle">Facts About Me</h1>
 		<h3 class="description">Description</h3>
 		<p class="info">I know how to do stuff on boards and I can dance well enough to where I can easily impress people and make them wish they had my skills of mass impression</p>
-		<h4>Add Numbers:</h4>
-		  <p>
-		    <input id="num-one"> + <input id="num-two">
-		  </p>
-		  <p id="add-sum"></p>
+		<div class="add">
+			<h4>Add Numbers:</h4>
+			  <p>
+			    <input id="num-one"> + <input id="num-two">
+			  </p>
+			  <p id="add-sum"></p>
+		  </div>
 		<h4 class="picTitle">Pictures (Click on the title)</h4>
 		<ul>
 			<li> <a data-img="tree-pic" id="skyrimTrees" href="#">Skyrim Trees</a></li>
@@ -40,7 +47,7 @@
 			<iframe class="alltoowell" width="313" height="213" src="https://www.youtube.com/embed/tqDeCjKdPgw?start=180&autoplay=1" frameborder="0" allowfullscreen></iframe>
 		</p>
 		<div class="skateVideo">
-		<h4 class="picTitle">This is a clip of me landing this sick 3 shuv</h4>
+			<h4 class="picTitle">This is a clip of me landing this sick 3 shuv</h4>
 			<p>
 				<video width="320" height="200" controls>
 				  <source src="fakie3shuv.mp4" type="video/mp4">
@@ -54,10 +61,12 @@
 			  <source src="skyrimMainTheme.mp3" type="audio/mpeg">
 			</audio>
 		</p>
-		<h4 class="picTitle">This is a funky looking RSS Feed that doesn't work</h4>
-		<p>
-			<img class="RSS" src="fakeRSS.png">
-		</p>
+		<div class="col-md-12">
+			<h4 class="picTitle">This is a funky looking RSS Feed that doesn't work</h4>
+			<p>
+				<img class="RSS" src="fakeRSS.png">
+			</p>
+		</div>
 		<h4 class="picTitle">This object directly gives you access to this page</h4>
 		<p>
 			<object width="750" height="750" data="resume.pdf" target="_blank"><img src="resume.pdf" border="0"></object>
