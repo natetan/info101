@@ -34,3 +34,23 @@
 	float: left;
 	width: 50%;
 }
+
+.picList {
+	padding: 3%;
+	margin: 3%;
+}
+
+.alduin, .paarthurnax {
+	width: 50%;
+	height: 50%;
+	padding: 3%;
+}
+
+
+.alduin {
+	float: left;
+}
+
+.paarthurnax {
+	float: right;
+}
