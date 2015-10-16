@@ -1,0 +1,73 @@
+body {
+	font-family: calibri;
+}
+
+.intro1, .intro2, .intro3, .links, .factList {
+	text-align: left;
+}
+
+.intro1, .intro2, .intro3 {
+	padding-top: 3%;
+	font-size: 16px;
+}
+
+.link, .facts, .songTitle {
+	font-size: 16px;
+}
+
+.col1, .col2, .col3 {
+	font-size: 32px;
+	border: 1px solid #687D6D;
+	border-radius: 20px;
+}
+
+.col1 {
+	background-color: #FF9999;
+}
+
+.col2 {
+	background-color: #99CCFF;
+}
+
+.col3 {
+	background-color: #00CC99;
+}
+
+.albumTitle {
+	color: blue;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.codeBlock {
+	text-align: left;
+}
+
+.quote {
+	float: left;
+	width: 50%
+}
+
+.sbtImage {
+	float: right;
+	width: 50%;
+	height: 50%;
+	padding: 3% 0px 3% 3%;
+}
+
+.list1, .list2, .list3 {
+	padding: 3%;
+	background-color: pink; 
+}
+
+.list1 {
+	border-radius: 20px 0px 0px 20px;
+}
+
+.list3 {
+	border-radius: 0px 20px 20px 0px;
+}
+
+.col1 {
+	text-align: center;
+}
