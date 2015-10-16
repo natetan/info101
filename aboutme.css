@@ -38,6 +38,7 @@
 .picList {
 	padding: 3%;
 	margin: 3%;
+	float: left;
 }
 
 .alduin, .paarthurnax {
@@ -45,7 +46,6 @@
 	height: 50%;
 	padding: 3%;
 }
-
 
 .alduin {
 	float: left;
