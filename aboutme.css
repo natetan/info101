@@ -1,10 +1,11 @@
 .myPanel {
-	border: 1px solid #687D6D;
-	border-radius: 20px;
-	box-shadow: 0px 0px 4px #ccc;
 	width: 50%;
 	margin-bottom: 3%;
 	float: right;
+	border-radius: 20px;
+	box-shadow: 0px 0px 4px #ccc;
+	border: 1px solid #687D6D;
+	
 }
 
 .myPanel .heading {
