@@ -1,0 +1,21 @@
+body {
+	background-image: url("images/obama-beer.jpg");
+	background-size: cover;	
+}
+
+.heading {
+	font-family: calibri;
+	padding: 3%;
+	margin: 3%;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.subtitle {
+	color: grey;
+}
+
+.content {
+	padding: 3%;
+	margin: 3%;
+}
