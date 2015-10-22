@@ -34,7 +34,7 @@ body {
 	padding: 1%;
 }
 
-.navigation {
+.navigation, .links {
 	font-size: 19px;
 	font-style: italic;
 	text-align: left;
