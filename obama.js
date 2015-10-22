@@ -29,7 +29,7 @@ function showContent() {
 	for (var i = 0; i <allContent.length; i++) {
 		allContent[i].className = "hide";
 	}
-	var pId = this.attributes["data-p"].value;
+	var pId = this.attributes["data-img"].value;
 	var content = document.getElementById(pId);
 	if (content.className === "hide") {
 		content.className = "";
