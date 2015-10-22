@@ -39,3 +39,14 @@ body {
 	font-style: italic;
 	text-align: left;
 }
+
+.hide {
+	display: none;
+}
+
+#content1 {
+	text-align: left;
+	padding: 2%;
+	font-style: italic;
+	word-spacing: 3%;
+}
