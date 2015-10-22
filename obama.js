@@ -25,13 +25,13 @@ function showPic() {
 }
 
 function showContent() {
-	var allContent = document.querySelectorAll("p");
+	var allContent = document.getElementsByClassName("information");
 	for (var i = 0; i <allContent.length; i++) {
 		allContent[i].className = "hide";
 	}
 	var pId = this.attributes["data-p"].value;
 	var content = document.getElementById(pId);
-	if (content.className == "hide") {
+	if (content.className === "hide") {
 		content.className = "";
 	} else {
 		content.className = "hide";
