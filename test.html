@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Practice Site</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<!--
+		xs - phones,
+		sm - tablets
+		md - desktops and laptops
+		lg - larger desktops, like huge iMacs -->
+		<div class="quote">
+			<blockquote>
+				<h3>
+					<i>"You're still all over me like a wine-stained dress I can't wear anymore"</i>
+					<footer>Taylor Swift</footer>
+				</h3>
+			</blockquote>
+		</div>
+		<div class="sbtImage">
+			<a target="_blank" href="http://azlyrics.com/lyrics/taylorswift/sadbeautifultragic.html">
+				<img src="SBTragic.png">
+			</a>
+		</div>
+		<div class="row row1">
+			<div class="col-md-2 list1 bg-danger">
+				<dl>
+					<dt class="albumTitle">Speak Now</dt>
+						<dd class="songTitle">- Long Live</dd>
+						<dd class="songTitle">- Enchanted</dd>
+						<dd class="songTitle">- Back To December</dd>
+						<dd class="songTitle">- Haunted</dd>
+						<dd class="songTitle">- Last Kiss</dd>
+				</dl>
+			</div>
+			<div class="col-md-2 list2 bg-danger">
+				<dl>
+					<dt class="albumTitle">RED</dt>
+						<dd class="songTitle">- Red</dd>
+						<dd class="songTitle">- Treacherous</dd>
+						<dd class="songTitle">- Sad Beautiful Tragic</dd>
+						<dd class="songTitle">- I Almost Do</dd>
+						<dd class="songTitle">- State of Grace</dd>
+				</dl>
+			</div>
+			<div class="col-md-2 list3 bg-danger">
+				<dl>
+					<dt class="albumTitle">1989</dt>
+						<dd class="songTitle">- Clean</dd>
+						<dd class="songTitle">- Blank Space</dd>
+						<dd class="songTitle">- I Know Places</dd>
+						<dd class="songTitle">- This Love</dd>
+						<dd class="songTitle">- Wonderland</dd>
+				</dl>	
+			</div>
+			<p class="songMethod"><i>To get the list of songs, simply use </i><code>getSongList()</code></p>
+		</div>
+		<div class="row row2">
+			<div class="col-md-4 text-center col1"><strong><i>Links</i></strong>
+				<p class="intro1">
+					<ul class="links">
+						<li class="link"><a href="https://github.com/yulongtan">GitHub</a></li>
+						<li class="link"><a href="https://www.linkedin.com/in/yulongtan">Linkedin</a></li>
+						<li class="link"><a href="https://twitter.com/cleanswifty">Twitter</a></li>
+						<li class="link"><a href="https://www.facebook.com/yulong.tan.52">Facebook</a></li>
+					</ul>
+				</p>
+			</div>
+			
+			<div class="col-md-4 text-center col2"><strong><i>Facts</i></strong>
+				<!-- <p class="intro2"><object width="100%" height="500px" data="resume.pdf" img src="resume.pdf"></object></p> -->
+				<p class="intro2">
+					<ul class="factList">
+						<li class="facts">I enjoy skateboarding, although I'm not very good at it</li>
+						<li class="facts">I really like to code up websites because I enjoy design</li>
+						<li class="facts">I love Taylor Swift</li>
+						<li class="facts">My favorite method is <code>reverse()</code> from Java StringBuffer</li>
+						<li class="facts">I can breakdance relatively well (I have windmills)</li>
+					</ul>
+					<h4 class="codeBlock">Here is the simple reverse method</h4>
+					<pre class="codeBlock">
+public String reverse(String text) {
+  return new StringBuffer(text).reverse().toString();
+}
+					</pre>
+					<h4 class="codeBlock">Here is the traditional way [more complex]</h4>
+					<pre class="codeBlock">
+public String reverse(String text) {
+  String output = "";
+  for (int i = text.length(); i >= 0; i--) {
+    output += text.charAt(i);
+  }
+  return output;
+}
+					</pre>
+				</p>
+			</div>
+			<div class="col-md-4 text-center col3"><strong><i>Premise</i></strong>
+				<p class="intro3">I graduated from Franklin High School (in Seattle) in 2014 with the mindset that everything was easy. However, after taking my first quarter at the University of Washington as a Freshman, I realized how different it was from high school. Teachers didn't hold your hand through tough crowds or spoon feed you chocolate pudding. As a matter of fact, they would throw it on the ground and tell you to lick it off. It's this kind of adversity I found myself in, as an unprepared fish trying to find my way through the ocean. I was but a single tree in an entire rainforest. It's a weird kind of feeling, with no one constantly nagging you to do your homework, or to get to class on time. That kind of pedagogy was all but relinquished when I stepped onto the smooth bricks of Red Square.</p>
+				<p class="intro3">Getting lost was easy, but going under was child's play. The college workload started off as soft echoes in my head, then turned into irrelevant white noise in the back of my mind. Like a marathon with Usain Bolt, falling behind was as simple as one hesitant moment. When I finally reached the 26th mile, drenched in sweat and dying of thirst, another lap is added, and by the time that happens, I've been lapped twice. It's all in metaphors, but college was the tide that took me by surprise, and before I knew it, I'd been swept out to sea.</p>
+				<p class="intro3">It was only halfway through the winter when I finally found out what I enjoyed doing. It came in the form of logic, disguised by computer screen. I was given riddles which I solved with what I now call <i>code</i>. Discovery always interested me, and I loved the idea of building things from scratch. The creativty I grew up with came in the form of scribbles on paper and the changing of colors on paper, but I replaced them with taps on a keyboard. As a child, trying to find something I enjoyed doing seemed so distant, so <i>untouchable</i>, but now I have found the x that marked my map.</p>
+			</div>
+		</div>
+
+		<div class="container-fluid picQuote">
+			<div class="quote2">
+				<blockquote>
+					<h3>
+						<i>"Hung my head as I lost the war, and the sky turned black like a perfect storm. Rain came pouring down, and when I was drowning that's when I could finally breathe"</i>
+						<footer>Taylor Swift</footer>
+					</h3>
+				</blockquote>
+			</div>
+			<img class="rainImage" src="http://data.whicdn.com/images/11797067/large.jpg">
+			<img class="cleanImage" src="https://d5w4uv416ie49.cloudfront.net/thumbs/0c/1a/0c1a2ccaff26016991462110697450e5.jpg">
+		</div>
+		<div class="regularTable bg-success">
+			<h2><i>Swift Table of Songs</i></h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Album</th>
+						<th>Song</th>
+						<th>Year</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Speak Now</td>
+						<td>Haunted</td>
+						<td>2010</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>All Too Well</td>
+						<td>2012</td>
+					</tr>
+					<tr>
+						<td>1989</td>
+						<td>Clean</td>
+						<td>2014</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- This is the Emmet expression that expands the table
+		div.condensedTable>h2+table.condensed-table>(thead>tr>td*3)+tbody>(tr>td*3)*3 -->
+
+		<div class="condensedTable bg-info">
+			<h2><i>A Condensed Version</i></h2>
+			<table class="table table-condensed">
+				<thead>
+					<tr>
+						<th>Album</th>
+						<th>Song</th>
+						<th>Year</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Speak Now</td>
+						<td>Back To December</td>
+						<td>2010</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Sad Beautiful Tragic</td>
+						<td>2012</td>
+					</tr>
+					<tr>
+						<td>1989</td>
+						<td>Wildest Dreams</td>
+						<td>2014</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="stripedTable bg-danger">
+			<h2><i>A Striped Version</i></h2>
+			<!-- table.table-striped>(thead>tr>td*3)+tbody>(tr>td*3)*3 -->
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Album</th>
+						<th>Song</th>
+						<th>Year</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Speak Now</td>
+						<td>If This Was A Movie</td>
+						<td>2012</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>I Almost Do</td>
+						<td>2014</td>
+					</tr>
+					<tr>
+						<td>1989</td>
+						<td>Wonderland</td>
+						<td>2014</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="sk8Table bg-success">
+			<h2><i>Local Sponsored Skaters</i></h2>
+			<table class="table table-condensed">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Stance</th>
+						<th>Hometown</th>
+						<th>Flip</th>
+						<th>Sponsor</th>
+						<th>Highest Stairset</th>
+						<th>Best Trick</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Zach Verbeck</td>
+						<td>22</td>
+						<td>Regular</td>
+						<td>Seattle</td>
+						<td>Heelflip</td>
+						<td>Adidas</td>
+						<td>7 [Kane]</td>
+						<td>Backside 180 Heelflip</td>
+					</tr>
+					<tr>
+						<td>Yulong Tan</td>
+						<td>19</td>
+						<td>Regular</td>
+						<td>Seattle</td>
+						<td>[incomplete]</td>
+						<td>Vans</td>
+						<td>2 [Guggenheim]</td>
+						<td>Ollie</td>
+					</tr>
+					<tr>
+						<td>Yubo Wang</td>
+						<td>19</td>
+						<td>Goofy</td>
+						<td>Richland</td>
+						<td>Kickflip</td>
+						<td>Nike SB</td>
+						<td>10 [Vancouver]</td>
+						<td>Switch Frontside 180 Kickflip</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="scheduleTable bg-info">
+			<h2><i>Time Schedule</i></h2>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Class</th>
+						<th>Location</th>
+						<th>Times</th>
+						<th>Days</th>
+						<th>Quarter</th>
+						<th>Year</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>PHIL 115</td>
+						<td>THO 325</td>
+						<td>1230-130</td>
+						<td>M - F</td>
+						<td>Autumn</td>
+						<td>2015</td>
+					</tr>
+					<tr>
+						<td>INFO 101</td>
+						<td>MGH 076</td>
+						<td>330-520</td>
+						<td>T, Th</td>
+						<td>Autumn</td>
+						<td>2015</td>
+					</tr>
+					<tr>
+						<td>INFO 200</td>
+						<td>MGH 389</td>
+						<td>330-520</td>
+						<td>M, W</td>
+						<td>Autumn</td>
+						<td>2015</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<!-- 
+		div#nav>ul.list>li.link*4>a
+		With Emmet, this will autocomplete really well
+		div.container-fluid>h1+p+h2+div.row>div.col-md-4*3 is the one portrayed up there
+	-->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+	font-family: calibri;
+}
+
+.intro1, .intro2, .intro3, .links, .factList {
+	text-align: left;
+}
+
+.intro1, .intro2, .intro3 {
+	padding-top: 3%;
+	font-size: 16px;
+}
+
+.link, .facts, .songTitle {
+	font-size: 16px;
+}
+
+.col1, .col2, .col3 {
+	font-size: 32px;
+	border-radius: 20px;
+	border: 1px solid #687D6D;
+}
+
+.col1 {
+	background-color: #FF9999;
+	text-align: center;
+}
+
+.col2 {
+	background-color: #99CCFF;
+}
+
+.col3 {
+	background-color: #00CC99;
+}
+
+.albumTitle {
+	color: blue;
+	font-style: italic;
+	font-size: 20px;
+	border-radius: 20px;
+	padding: 3%;
+}
+
+.codeBlock {
+	text-align: left;
+	border-radius: 20px;
+}
+
+.quote {
+	float: left;
+	width: 50%
+}
+
+.quote2 {
+	padding: 3%;
+	margin: 3%;
+}
+
+.picQuote {
+	background: #9DF5C9;
+	border-radius: 20px;
+	padding: 3%;
+	margin: 3%;
+}
+
+.rainImage {
+	width: 50%;
+	height: 50%;
+	float: left;
+	padding: 3%;
+}
+
+.cleanImage {
+	float: right;
+	width: 50%;
+	height: 50%;
+	padding:3%;
+}
+
+.sbtImage {
+	float: right;
+	width: 50%;
+	height: 50%;
+	padding: 3%;
+}
+
+.list1, .list2, .list3 {
+	padding: 3%;
+}
+
+.list1 {
+	border-radius: 20px 0px 0px 20px;
+}
+
+.list3 {
+	border-radius: 0px 20px 20px 0px;
+}
+
+.songMethod {
+	font-size: 31px;
+}
+
+.regularTable, .condensedTable, .stripedTable, .sk8Table, .scheduleTable {
+	border: 1px solid #687D6D;
+	border-radius: 20px;
+	margin: 3%;
+	padding: 1%;
+}
