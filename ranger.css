@@ -18,6 +18,7 @@ body {
 .content {
 	padding: 3%;
 	margin: 3%;
+	opacity: 0.8;
 }
 
 .col1 {
@@ -29,10 +30,12 @@ body {
 }
 
 .col1, .col2, .col3 {
-	font-size: 24px;
+	font-size: 20px;
+	padding: 1%;
 }
 
 .navigation {
 	font-size: 19px;
 	font-style: italic;
+	text-align: left;
 }
