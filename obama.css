@@ -44,7 +44,7 @@ body {
 	display: none;
 }
 
-#content1 {
+#content1, #content2, #content3, #content4, #content5 {
 	text-align: left;
 	padding: 2%;
 	font-style: italic;
