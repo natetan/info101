@@ -6,6 +6,6 @@ function showContent() {
 	if(terms.className === "conditions bg-info hide") {
 		terms.className = "conditions bg-info";
 	} else {
-		terms.className = "hide";
+		terms.className = "conditions bg-info hide";
 	}
 }
