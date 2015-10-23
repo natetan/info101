@@ -22,3 +22,7 @@
 .termTitle {
 	font-style: italic;
 }
+
+label {
+	font-weight: normal;
+}
