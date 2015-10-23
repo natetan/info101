@@ -3,7 +3,7 @@ terms.addEventListener("click", showContent);
 
 function showContent() {
 	var terms = document.getElementById("conditions");
-	if(terms.className === "hide") {
+	if(terms.className === "conditions bg-info hide") {
 		terms.className = "conditions bg-info";
 	} else {
 		terms.className = "hide";
