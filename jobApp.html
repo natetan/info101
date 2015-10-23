@@ -13,10 +13,44 @@
 </head>
 <body>
 	<div class="credentials bg-success">
+		<h1><strong><i>Weed Roller Application</i></strong></h1>
 		<form action="">
 			First name: <input class="first" type="text" name="firstname"><br>Last name: <input type="text" name="lastname">
-			Password: <input class="second" type="password" name="pwd">
 		</form>
+		<div class="essay">
+			<h5>What makes you qualified for this job?</h5>
+			<textarea name="essay"></textarea>
+		</div>
+		<div class="weed">
+			<h5>Do you enjoy smoking weed?</h5>
+			<input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No
+		</div>
+		<div class="multiple">
+			<h5>What is your best method of delivering marijuana?</h5>
+			<input type="checkbox" name="vehicle" value="Bike"> I have a bike<br> <input type="checkbox" name="vehicle" value="Car"> I have a car <br><input type="checkbox" name="vehicle" value="Homies"> My homies can deliver <br> <input type="checkbox" name="vehicle" value="Import"> I import from China
+		</div>
+		<div class="dropDown">
+			<h5>What's your preferred method of getting high?</h5>
+			<select name="methods"> <option value="Weed">Weed</option> <option value="Marijuana">Marijuana</option> <option value="Crack">Crack</option> <option value="Flying">Flying</option> </select>
+		</div>
+		<h5>When did you get into the weed business?</h5>
+		<input type="checkbox" name="date" value="week"> One week ago <br> <input type="checkbox" name="date" value="month"> A month ago <br> <input type="checkbox" name="date" value="year"> A year ago <br> <input type="checkbox" name="date" value="5years"> Over 5 years ago
+
+		<div class="agreement">
+			<h5>By clicking submit, you agree to the terms and conditions*</h5>
+			<input type="submit" value="Submit form">
+		</div>
+	</div>
+
+	<div class="conditions bg-info">
+		<h2 class="termTitle">Terms And Conditions</h2>
+		<img class="terms" src="images/terms.png">
+		<p class="content">
+			Employees are subject to immediate citation from the local police if caught. Weed Roller is in no way affiliated with the FDA or the Cartels. We are a privately owned company under the president of the United States. All solicitors are subject to a fine of up to $5.
+		</p>
+		<p class="content">
+			Anyone who clicks submit will have their credentials taken away from them and their social security will be compromised. Bank information and ID will be forged to create fake consumer profiles under regulation of the NSA. 
+		</p>
 	</div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
