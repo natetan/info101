@@ -23,26 +23,26 @@
 		</div>
 		<div class="weed">
 			<h5>Do you enjoy smoking weed?</h5>
-			<input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No
+			<label><input type="radio" name="answer" value="yes"> Yes</label><br> <label><input type="radio" name="answer" value="no"> No</label>
 		</div>
 		<div class="multiple">
 			<h5>What is your best method of delivering marijuana?</h5>
-			<input type="checkbox" name="vehicle" value="Bike"> I have a bike<br> <input type="checkbox" name="vehicle" value="Car"> I have a car <br><input type="checkbox" name="vehicle" value="Homies"> My homies can deliver <br> <input type="checkbox" name="vehicle" value="Import"> I import from China
+			<label><input type="checkbox" name="vehicle" value="Bike"> I have a bike</label><br> <label><input type="checkbox" name="vehicle" value="Car"> I have a car</label> <br><label><input type="checkbox" name="vehicle" value="Homies"> My homies can deliver</label> <br> <label><input type="checkbox" name="vehicle" value="Import"> I import from China</label>
 		</div>
 		<div class="dropDown">
 			<h5>What's your preferred method of getting high?</h5>
 			<select name="methods"> <option value="Weed">Weed</option> <option value="Marijuana">Marijuana</option> <option value="Crack">Crack</option> <option value="Flying">Flying</option> </select>
 		</div>
 		<h5>When did you get into the weed business?</h5>
-		<input type="checkbox" name="date" value="week"> One week ago <br> <input type="checkbox" name="date" value="month"> A month ago <br> <input type="checkbox" name="date" value="year"> A year ago <br> <input type="checkbox" name="date" value="5years"> Over 5 years ago
+		<label><input type="checkbox" name="date" value="week"> One week ago</label> <br> <label><input type="checkbox" name="date" value="month"> A month ago</label> <br> <label><input type="checkbox" name="date" value="year"> A year ago</label> <br> <label><input type="checkbox" name="date" value="5years"> Over 5 years ago</label>
 
 		<div class="agreement">
-			<h5>By clicking submit, you agree to the terms and conditions*</h5>
+			<h5>By clicking submit, you agree to the <a href="#" id="terms">terms and conditions</a>*</h5>
 			<input type="submit" value="Submit form">
 		</div>
 	</div>
 
-	<div class="conditions bg-info">
+	<div class="conditions bg-info hide" id="conditions">
 		<h2 class="termTitle">Terms And Conditions</h2>
 		<img class="terms" src="images/terms.png">
 		<p class="content">
@@ -56,5 +56,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="jobApp.js"></script>
 </body>
 </html>

@@ -22,3 +22,11 @@
 .termTitle {
 	font-style: italic;
 }
+
+label {
+	font-weight: normal;
+}
+
+.hide {
+	display: none;
+}
