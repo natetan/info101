@@ -10,20 +10,6 @@ left3.addEventListener("click", showContent);
 left4.addEventListener("click", showContent);
 left5.addEventListener("click", showContent);
 
-function showPic() {
-	var allImages = document.querySelectorAll("img");
-	for (var i = 0; i < allImages.length; i++) {
-		allImages[i].className = "hide";
-	}
-	var picId = this.attributes["data-img"].value;
-	var pic = document.getElementById(picId);
-	if (pic.className === "hide") {
-		pic.className = "";
-	} else {
-		pic.className = "hide";
-	}
-}
-
 function showContent() {
 	var allContent = document.getElementsByClassName("information");
 	for (var i = 0; i <allContent.length; i++) {
