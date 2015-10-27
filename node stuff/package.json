@@ -1,0 +1,26 @@
+{
+  "name": "info101",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulongtan/info101.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yulongtan/info101/issues"
+  },
+  "homepage": "https://github.com/yulongtan/info101#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
