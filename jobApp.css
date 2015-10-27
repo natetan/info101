@@ -30,3 +30,7 @@ label {
 .hide {
 	display: none;
 }
+
+.multiple {
+	padding: 0px 1%;
+}
