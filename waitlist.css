@@ -1,0 +1,26 @@
+.box {
+	border-radius: 20px;
+	padding: 3%;
+	margin: 3%;
+}
+
+.title {
+	text-align: center;
+}
+
+.pic {
+	padding: 3%;
+	width: 50%;
+}
+
+.heading {
+	text-align: left;
+}
+
+body {
+	font-family: calibri;
+}
+
+.tag {
+	float: right;
+}
