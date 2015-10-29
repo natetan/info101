@@ -14,72 +14,76 @@
 <body>
 	<div class="credentials bg-success">
 		<h1><strong><i>Weed Roller Application</i></strong></h1>
-		<form action="">
-			First name: <input class="first" type="text" name="firstname"><br>Last name: <input type="text" name="lastname">
-		</form>
+		<div class="showOnHover">
+			<form action="">
+				First name: <input class="first input" type="text" name="firstname"> <br>
+				Last name: <input class="input" type="text" name="lastname">
+			</form>
+		</div>
 		<div class="essay">
 			<h5>What makes you qualified for this job?</h5>
 			<h6 class="subtitle">Your answer should be at least 2 paragraphs and should have correct spelling, syntax, drug slang, and grammar</h6>
-			<textarea class="response" name="essay"></textarea>
+			<textarea class="response input" name="essay"></textarea>
 		</div>
 		<div class="weed">
 			<h5>Do you enjoy smoking weed?</h5>
-			<label><input type="radio" name="answer" value="yes"> Yes</label><br> <label><input type="radio" name="answer" value="no"> No</label>
+			<label><input class="input" type="radio" name="answer" value="yes"> Yes</label> <br> 
+			<label><input class="input" type="radio" name="answer" value="no"> No</label>
 		</div>
 		<div class="multiple">
 			<h5>What is your best method of delivering marijuana?</h5>
-			<label><input type="checkbox" name="vehicle" value="Bike"> I have a bike</label><br> 
-			<label><input type="checkbox" name="vehicle" value="Car"> I have a car</label><br>
-			<label><input type="checkbox" name="vehicle" value="Homies"> My homies can deliver</label><br> 
-			<label><input type="checkbox" name="vehicle" value="Import"> I import from China</label>
+			<label><input class="input" type="checkbox" name="vehicle" value="Bike"> I have a bike</label><br> 
+			<label><input class="input" type="checkbox" name="vehicle" value="Car"> I have a car</label><br>
+			<label><input class="input" type="checkbox" name="vehicle" value="Homies"> My homies can deliver</label><br> 
+			<label><input class="input" type="checkbox" name="vehicle" value="Import"> I import from China</label>
 		</div>
 		<div class="dropDown">
 			<h5>What's your preferred method of getting high?</h5>
 			<select name="methods"> <option value="Weed">Weed</option> <option value="Marijuana">Marijuana</option> <option value="Crack">Crack</option> <option value="Flying">Flying</option> </select>
 		</div>
 		<h5>When did you get into the weed business?</h5>
-		<label><input type="radio" name="date" value="week"> One week ago</label><br> 
-		<label><input type="radio" name="date" value="month"> A month ago</label><br> 
-		<label><input type="radio" name="date" value="year"> A year ago</label><br> 
-		<label><input type="radio" name="date" value="5years"> Over 5 years ago</label>
+		<label><input class="input" type="radio" name="date" value="week"> One week ago</label><br> 
+		<label><input class="input" type="radio" name="date" value="month"> A month ago</label><br> 
+		<label><input class="input" type="radio" name="date" value="year"> A year ago</label><br> 
+		<label><input class="input" type="radio" name="date" value="5years"> Over 5 years ago</label>
 
 		<h5>How often do you smoke weed in classrooms?</h5>
-		<label><input type="radio"> Once a week</label><br>
-		<label><input type="radio"> Twice a week</label><br>
-		<label><input type="radio"> Every class</label><br>
-		<label><input type="radio"> Every 10 minutes per class</label>
+		<label><input class="input" type="radio"> Once a week</label><br>
+		<label><input class="input" type="radio"> Twice a week</label><br>
+		<label><input class="input" type="radio"> Every class</label><br>
+		<label><input class="input" type="radio"> Every 10 minutes per class</label>
 
 		<h5>Are you a US citizen?</h5>
-		<label><input type="radio" name="answer" value="yes"> Yes</label> <br>
-		<label><input type="radio" name="answer" value="no"> No</label> <br>
-		<label><input type="radio" name="answer" value="maybe"> Maybe</label>
+		<label><input class="input" type="radio" name="answer" value="yes"> Yes</label> <br>
+		<label><input class="input" type="radio" name="answer" value="no"> No</label> <br>
+		<label><input class="input" type="radio" name="answer" value="maybe"> Maybe</label>
 
 		<h5>Are you over the age of 21?</h5>
-		<label><input type="radio" name="answer" value="yes"> Yes</label> <br>
-		<label><input type="radio" name="answer" value="no"> No</label> <br>
-		<label><input type="radio" name="answer" value="maybe"> Maybe</label>
+		<label><input class="input" type="radio" name="answer" value="yes"> Yes</label> <br>
+		<label><input class="input" type="radio" name="answer" value="no"> No</label> <br>
+		<label><input class="input" type="radio" name="answer" value="maybe"> Maybe</label>
 
 		<h5>What describes your physical attributes?</h5>
 		<h6><i>You can select more than one</i></h6>
-		<label class="multiple"><input type="checkbox" name="description" value="fat"> Fat</label>
-		<label class="multiple"><input type="checkbox" name="description" value="skinny"> Skinny</label>
-		<label class="multiple"><input type="checkbox" name="description" value="bulky"> Bulky</label> <br>
-		<label class="multiple"><input type="checkbox" name="description" value="short"> Short</label>
-		<label class="multiple"><input type="checkbox" name="description" value="tall"> Tall</label>
-		<label class="multiple"><input type="checkbox" name="description" value="muscular"> Muscular</label> <br>
-		<label class="multiple"><input type="checkbox" name="description" value="other"> Other <input type="text"></label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="fat"> Fat</label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="skinny"> Skinny</label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="bulky"> Bulky</label> <br>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="short"> Short</label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="tall"> Tall</label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="muscular"> Muscular</label> <br>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="other"> Other <input class="input" type="text"></label>
 
 		<h5>Areas of expertise</h5>
 		<h6><i>You can select more than one</i></h6>
-		<label class="multiple"><input type="checkbox" name="description" value="weaponry"> Weaponry</label>
-		<label class="multiple"><input type="checkbox" name="description" value="drug-dis"> Drug Distribution</label> <br>
-		<label class="multiple"><input type="checkbox" name="description" value="running"> Running</label>
-		<label class="multiple"><input type="checkbox" name="description" value="hiding"> Hiding</label>
-		<label class="multiple"><input type="checkbox" name="description" value="swimming"> Swimming</label> <br>
-		<label class="multiple"><input type="checkbox" name="description" value="sneaking"> Sneaking</label>
-		<label class="multiple"><input type="checkbox" name="description" value="theft"> Theft</label>
-		<label class="multiple"><input type="checkbox" name="description" value="espionage"> Espionage</label> <br>
-		<label class="multiple"><input type="checkbox" name="description" value="other"> Other <input type="text"></label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="weaponry"> Weaponry</label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="drug-dis"> Drug Distribution</label> <br>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="running"> Running</label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="hiding"> Hiding</label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="swimming"> Swimming</label> <br>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="sneaking"> Sneaking</label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="theft"> Theft</label>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="espionage"> Espionage</label> <br>
+		<label class="multiple"><input class="input" type="checkbox" name="description" value="other"> Other <input class="input" type="text"></label>
 
 
 
