@@ -8,6 +8,11 @@
 	text-align: center;
 }
 
+.subtitle {
+	text-align: center;
+	color: grey;
+}
+
 .pic {
 	padding: 3%;
 	width: 50%;
