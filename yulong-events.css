@@ -46,3 +46,8 @@
 .details {
 	margin-top: 2%;
 }
+
+.nearEvents {
+	width: 50%;
+	float: left;
+}
