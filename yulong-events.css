@@ -31,12 +31,6 @@
 	display: inline-block;
 }
 
-.pdfObject {
-	float: left;
-	width: 50%;
-	padding-right: 3%;
-}
-
 .picList {
 	background: #9DF5C9;
 	border-radius: 20px;
@@ -45,20 +39,10 @@
 	float: left;
 }
 
-.alduinPic, .paarthurnaxPic {
-	width: 50%;
-	height: 50%;
-	padding: 3%;
+.near {
+	margin: 1%;
 }
 
-.alduinPic {
-	float: left;
-}
-
-.paarthurnaxPic {
-	float: right;
-}
-
-.alduinLink, .paarthurnaxLink {
-	font-size: 16px;
+.details {
+	margin-top: 2%;
 }
