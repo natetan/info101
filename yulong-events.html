@@ -58,7 +58,8 @@
 								<li><a href="#">Nature</a></li>
 								<li><a href="#">Social</a></li>
 							</ul>
-				          <li><a href="#">Current Events</a></li>
+				          <li><a href="#">Tonight's Special Event</a></li>
+				          <li><a href="#">Color Key</a></li>
 				        </li>
 			        </ul>
 					<form class="navbar-form navbar-right" role="search">
@@ -91,7 +92,7 @@
 					<div class="panel panel-primary">
 					    <div class="panel-heading text-center">Events Near You</div>
 					    <div class="panel-body">
-					    	<div class="nearEvents event1">
+					    	<div class="nearEvents">
 						        <li class="near btn btn-primary">Tech Parade</li> 
 						        <ul class="details">
 						     	    <li>Partake in the parade from downtown Seattle to Queen Anne</li>
@@ -99,7 +100,7 @@
 						     	    <li>Celebrate 20 years of tech success</li>
 						     	</ul>
 					     	</div> 
-					        <div class="nearEvents event2">
+					        <div class="nearEvents">
 						    	<li class="near btn btn-primary">Angular</li> 
 								<ul class="details">
 									<li>Join the Angular.js movement</li>
@@ -107,7 +108,7 @@
 									<li>Get job offers from Angular, the leading company in JavaScript development</li>
 								</ul>
 							</div>
-					    	<div class="nearEvents event3">
+					    	<div class="nearEvents">
 					    		<li class="near btn btn-danger">Return of the End</li>
 					    		<ul class="details">
 					    			<li>New classical play in your local opera</li>
@@ -115,7 +116,7 @@
 					    			<li>Tickets are currently on sale</li>
 					    		</ul>
 					   		</div>
-					   		<div class="nearEvents event4">
+					   		<div class="nearEvents">
 					    		<li class="near btn btn-success">Nature Walk</li>
 					    		<ul class="details">
 					    			<li>Go on a fun hiking trip with new people who enjoy the outdoor life</li>
@@ -123,20 +124,91 @@
 					    			<li>Become one with nature</li>
 					    		</ul>
 					    	</div>
-					    	<div class="nearEvents event5">
-					  			<li class="near btn btn-warning" id="reverse"> Panorama</li>
+					    	<div class="nearEvents">
+					  			<li class="near btn btn-default">Panorama</li>
 					  			<ul class="details">
 					  				<li>Exclusive tour inside Panorama's new exhibit, "Starlight Afference"</li>
 					  				<li>Experience one of the best museums in Seattle</li>
 					  				<li>Enter a raffle to win a Sony DSLR Camera</li>
 					  			</ul>
 					  	    </div>
-					  	    div.nearEvents
+					  	    <div class="nearEvents">
+					  	    	<li class="near btn btn-success">Dawg Dash</li>
+					  	    	<ul class="details">
+					  	    		<li>Walk for run for the freedom of others</li>
+					  	    		<li>Sprint with friends and family till your heart runs dry</li>
+					  	    		<li>Explore the beautiful UW Seattle campus</li>
+					  	    	</ul>
+					  	    </div>
+					  	    <div class="nearEvents">
+					  	    	<li class="near btn btn-warning">Novemberfest</li>
+					  	    	<ul class="details">
+					  	    		<li>Jam with local artists in their free booths</li>
+					  	    		<li>Meet locals who enjoy the same music</li>
+					  	    		<li>Night concert with many festivities</li>
+					  	    	</ul>
+					  	    </div>
+					  	    <div class="nearEvents">
+					  	    	<li class="near btn btn-warning">Pop Rocks</li>
+					  	    	<ul class="details">
+					  	    		<li>Want to enjoy the joy of pop music?</li>
+					  	    		<li>Pop artists are coming to Key Arena to perform mash ups</li>
+					  	    		<li>Sale ends soon</li>
+					  	    	</ul>
+					  	    </div>
+					  	    <div class="nearEvents">
+					  	    	<li class="near btn btn-success">Pet Wave</li>
+					  	    	<ul class="details">
+					  	    		<li>Walk your pets across Seattle</li>
+					  	    		<li>Free beer every mile</li>
+					  	    		<li>Cat competition</li>
+					  	    	</ul>
+					  	    </div>
+					  	    <div class="nearEvents">
+					  	    	<li class="near btn btn-danger">Wrath of the Stormcloaks</li>
+					  	    	<ul class="details">
+					  	    		<li>Immerse yourself in a live action Skyrim film</li>
+					  	    		<li>First premiere showing only in Seattle</li>
+					  	    		<li>Ticket sale begins tomorrow</li>
+					  	    	</ul>
+					  	    </div>
+					  	    <div class="nearEvents">
+					  	    	<li class="near btn btn-info">Bones: Street Tech Formula</li>
+					  	    	<ul class="details">
+					  	    		<li>The Bones skateboarding team host a skating event</li>
+					  	    		<li>Come watch the pros skate Jefferson Skatepark</li>
+					  	    		<li>Enter the local S.K.A.T.E. contest to win a free deck</li>
+					  	    	</ul>
+					  	    </div>
+					  	    <div class="nearEvents">
+					  	    	<li class="near btn btn-default">Paint The Sky Blue</li>
+					  	    	<ul class="details">
+					  	    		<li>Famous painters displaying their skills</li>
+					  	    		<li>Go to workshops to learn the techniques of painting</li>
+					  	    		<li>Submit your own projects for the art gallery</li>
+					  	    	</ul>
+					  	    </div>
+					  	    <!-- div.nearEvents>li.near.btn.btn-success+ul.details>(li*3) events Emmet expression-->
 					    </div>
+					</div> <!-- event panel collapse -->
+				</div> <!-- column collapse -->
+				<div class="col-sm-6 col-xs-12 col-md-4">
+					<div class="panel panel-info hide">
+						<div class="panel-heading text-center" id="colorKey">Color Key</div>
+						<div class="panel-body">
+							<div class="colorButton">
+								<li class="eventCode btn btn-primary">tech</li>
+								<li class="eventCode btn btn-default">art</li>
+								<li class="eventCode btn btn-success">outdoor</li>
+								<li class="eventCode btn btn-info">sports</li>
+								<li class="eventCode btn btn-warning">music</li>
+								<li class="eventCode btn btn-danger">cinema</li>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</div> <!-- row collapse -->
+		</div> <!-- conatiner collapse -->
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
