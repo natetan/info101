@@ -51,3 +51,13 @@
 	width: 50%;
 	float: left;
 }
+
+.eventCode {
+	width: 30%;
+	float: left;
+	margin: 1%;
+}
+
+.hide {
+	display: none;
+}
