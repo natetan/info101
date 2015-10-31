@@ -1,3 +1,8 @@
+body {
+	background: url("images/sunset-1.jpg");
+	background-size: 100%;
+}
+
 .anchor {
     display: block;
     position: fixed;
@@ -72,4 +77,5 @@
 
 .currentEvents {
 	margin-top: 7%;
+	opacity: 0.8;
 }
