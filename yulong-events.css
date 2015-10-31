@@ -1,3 +1,11 @@
+.anchor {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
 .myPanel {
 	width: 50%;
 	margin-bottom: 3%;
@@ -60,4 +68,8 @@
 
 .hide {
 	display: none;
+}
+
+.currentEvents {
+	margin-top: 7%;
 }
