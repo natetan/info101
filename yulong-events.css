@@ -11,39 +11,6 @@ body {
     z-index: 999;
 }
 
-.myPanel {
-	width: 50%;
-	margin-bottom: 3%;
-	float: right;
-	border-radius: 20px;
-	box-shadow: 0px 0px 4px #ccc;
-	border: 1px solid #687D6D;
-	
-}
-
-.myPanel .heading {
-	background: #9DF5C9;
-	border-radius: 20px 20px 0px 0px;
-	color: #687D6D;
-	padding: 10px 20px;
-}
-
-.myPanel .body {
-	padding: 10px 20px;
-}
-
-.myPanel .showOnHover {
-	display: none;
-}
-
-.myPanel:hover {
-	box-shadow: 0px 0px 8px #666;
-}
-
-.myPanel:hover .showOnHover {
-	display: inline-block;
-}
-
 .picList {
 	background: #9DF5C9;
 	border-radius: 20px;
