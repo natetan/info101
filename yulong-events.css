@@ -11,12 +11,12 @@ body {
     z-index: 999;
 }
 
-.picList {
-	background: #9DF5C9;
-	border-radius: 20px;
-	padding: 3%;
-	margin: 3%;
-	float: left;
+@media(max-width:767px) { /* small screen */
+	.myPanel {
+		position: relative;
+		top: 50px;
+	}
+
 }
 
 .near {
