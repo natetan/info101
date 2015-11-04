@@ -1,0 +1,76 @@
+body {
+	background: url("images/sunset-1.jpg");
+	background-size: 100%;
+}
+
+.anchor {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.myPanel {
+	width: 50%;
+	margin-bottom: 3%;
+	float: right;
+	border-radius: 20px;
+	box-shadow: 0px 0px 4px #ccc;
+	border: 1px solid #687D6D;
+	
+}
+
+.myPanel .heading {
+	background: #9DF5C9;
+	border-radius: 20px 20px 0px 0px;
+	color: #687D6D;
+	padding: 10px 20px;
+}
+
+.myPanel .body {
+	padding: 10px 20px;
+}
+
+.myPanel .showOnHover {
+	display: none;
+}
+
+.myPanel:hover {
+	box-shadow: 0px 0px 8px #666;
+}
+
+.myPanel:hover .showOnHover {
+	display: inline-block;
+}
+
+.picList {
+	background: #9DF5C9;
+	border-radius: 20px;
+	padding: 3%;
+	margin: 3%;
+	float: left;
+}
+
+.near {
+	margin: 1%;
+}
+
+.details {
+	margin-top: 2%;
+}
+
+.eventCode {
+	width: 30%;
+	float: left;
+	margin: 1%;
+}
+
+.hide {
+	display: none;
+}
+
+.currentEvents {
+	margin-top: 7%;
+	opacity: 0.8;
+}
