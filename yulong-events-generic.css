@@ -1,0 +1,72 @@
+body {
+	background-image: url("images/underwater-turtle.jpg");
+	background-size: 100%;	
+}
+
+.anchor {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.heading {
+	font-family: calibri;
+	padding: 3%;
+	margin: 3%;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.exhibit {
+	padding-bottom: 2%;
+}
+
+.subtitle {
+	color: grey;
+}
+
+.content {
+	padding: 3%;
+	margin: 3%;
+	opacity: 0.8;
+}
+
+.col1 {
+	border-radius: 20px 0px 0px 0px;
+}
+
+.col2 {
+	border-radius: 0px 20px 0px 0px;
+}
+
+.col1, .col2, .col3 {
+	font-size: 20px;
+	padding: 1%;
+}
+
+.navigation, .links {
+	font-size: 19px;
+	font-style: italic;
+	text-align: left;
+}
+
+.hide {
+	display: none;
+}
+
+#content1, #content2, #content3, #content4, #content5 {
+	text-align: left;
+	padding: 2%;
+	font-style: italic;
+	word-spacing: 3%;
+}
+
+.attendButton {
+	border-radius: 10px;
+}
+
+.detailsDropdown {
+	padding: 2%;
+}
