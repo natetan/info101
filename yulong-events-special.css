@@ -62,3 +62,11 @@ body {
 	font-style: italic;
 	word-spacing: 3%;
 }
+
+.attendButton {
+	border-radius: 10px;
+}
+
+.detailsDropdown {
+	padding: 2%;
+}
