@@ -52,19 +52,11 @@ body {
 	text-align: left;
 }
 
-.hide {
-	display: none;
-}
-
 #content1, #content2, #content3, #content4, #content5 {
 	text-align: left;
 	padding: 2%;
 	font-style: italic;
 	word-spacing: 3%;
-}
-
-.attendButton {
-	border-radius: 10px;
 }
 
 .detailsDropdown {
