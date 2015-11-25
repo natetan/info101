@@ -41,3 +41,7 @@ body {
 	margin-top: 7%;
 	opacity: 0.8;
 }
+
+.buttonLink {
+	list-style-type: none;
+}
